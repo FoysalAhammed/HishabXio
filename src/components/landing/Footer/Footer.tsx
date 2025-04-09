@@ -115,7 +115,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className={`text-gray-600 text-sm ${isBangla ? 'font-hind-siliguri' : ''}`}>
-              © {new Date().getFullYear()} HisabX By Foysal Ahammeed. {t.footer.allRightsReserved}
+              © {new Date().getFullYear()} HisabX By Foysal Ahammed. {t.footer.allRightsReserved}
             </p>
             <div className="flex items-center gap-6">
               <Link
